@@ -7,7 +7,7 @@ const add = (a, b) => a + b
  * asset(value, message)
  */
 
-// assert(add(1, 2) === 3, '1 + 2 = 3') //没有任何提示
+// assert(add(1, 2) === 3, '1 + 2 = 3') // 没有任何提示
 // assert(add(1, 2) === 4, '1 + 2 = 3') // AssertionError: 1 + 2 = 3
 // assert(add(1, 2) != 5, '1 + 2 = 3') // 没有任何提示
 
@@ -87,4 +87,4 @@ const add = (a, b) => a + b
  * notStrictEqual方法使用严格不相等运算符（!==），比较两个表达式
  * assert.notStrictEqual(actual, expected, message)
  */
-assert.notStrictEqual(1, '1', '这两个值不严格相等') // 没有任何提示
+// assert.notStrictEqual(1, '1', '这两个值不严格相等') // 没有任何提示
